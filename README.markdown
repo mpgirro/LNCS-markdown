@@ -55,6 +55,10 @@ The [Makefile](Makefile) provides the basic targets `make pdf` and `make html`.
 
 ### Dependencies
 
+**Fonts**:
+
+The fonts in [fonts/](fonts/) must be installed on your system. 
+
 [Pandoc](http://pandoc.org):
 
 ```
