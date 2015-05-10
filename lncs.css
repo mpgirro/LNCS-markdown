@@ -223,7 +223,7 @@ body {
     position: relative;
     margin: 0 auto;
     padding: 2em 0;
-    width: 35.475em;
+    width: 36em; /* should roughly match the width of a line in the pdf */
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;

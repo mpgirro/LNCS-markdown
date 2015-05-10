@@ -36,6 +36,8 @@ output:
 
 For a full list of output options, see R Markdowns [HTML document format](http://rmarkdown.rstudio.com/html_document_format.html) and [PDF document format](http://rmarkdown.rstudio.com/pdf_document_format.html).
 
+I added `toc`, `toc_depth` and `number_sections` to the `html_document` options out of personal favour though this is not conform with the LNCS style. Feel free to remove these.
+
 
 ## Usage
 
