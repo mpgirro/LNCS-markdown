@@ -2,7 +2,7 @@
 
 This are [TeX](lncs-template.tex) and [HTML](lncs-template.html) templates as well as a [CSS](lncs.css) to render [LNCS](https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0) styled papers to PDF and HTML written in [Markdown](http://daringfireball.net/projects/markdown/).
 
-Currently only one author is supported. 
+Currently only one author is supported.
 
 ## Format
 
@@ -61,7 +61,7 @@ The [Makefile](Makefile) provides the basic targets `make pdf` and `make html`.
 
 **Fonts**:
 
-The fonts in [fonts/](fonts/) must be installed on your system. 
+The fonts in [fonts/](fonts/) must be installed on your system.
 
 [Pandoc](http://pandoc.org):
 
@@ -78,19 +78,19 @@ $ brew install pandoc-citeproc
 [R Markdown](http://rmarkdown.rstudio.com):
 
 ```
-$ brew install R 
-$ R 
+$ brew install R
+$ R
 > install.packages('rmarkdown', dependencies = TRUE)
 ```
 
 ### Citation
 
-In the Markdown files front matter there has to be the attribute `bibliography: references.bib` set, where the specified `.bib` file contains the references of course. 
+In the Markdown files front matter there has to be the attribute `bibliography: references.bib` set, where the specified `.bib` file contains the references of course.
 
-Citing a reference from the `.bib` file in the markdown text is simply done via [R markdowns citation syntax](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html): 
+Citing a reference from the `.bib` file in the markdown text is simply done via [R markdowns citation syntax](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html):
 
 ```
-Xiang says blah [@xiang2007robust; @xiang2007robust].
+bla bla bla [@xiang2007robust; @wu2005efficiently].
 ```
 
-Basically, citations go inside square brackets and are separated by semicolons. Each citation must have a key, composed of `@` + the citation identifier from the database. 
+Basically, citations go inside square brackets and are separated by semicolons. Each citation must have a key, composed of `@` + the citation identifier from the database.
