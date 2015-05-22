@@ -119,6 +119,10 @@
 \pdfgentounicode=1
 
 \title{$title$}
+
+$if(subtitle)$
+	\subtitle{$subtitle$}
+$endif$
 %If Title is too long, use \titlerunning
 %\titlerunning{Short Title}
 %Single insitute
@@ -147,11 +151,15 @@ $endfor$
 
 \maketitle
 
-\begin{abstract}
-$abstract$
-\end{abstract}
+$if(abstract)$
+	\begin{abstract}
+		$abstract$
+	\end{abstract}
+$endif$
 
-\keywords{$keywords$}
+$if(keywords)$
+	\keywords{$keywords$}
+$endif$
 
 $body$
 
