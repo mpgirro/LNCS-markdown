@@ -72,5 +72,5 @@ $ brew install pandoc
 ```
 $ brew install R 
 $ R 
-> install.packages("rmarkdown")
+> install.packages('rmarkdown', dependencies = TRUE)
 ```
