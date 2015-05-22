@@ -1,6 +1,6 @@
 
 BIBTEX ?= bibtex
-
+MDEXT += markdown
 PAPER += paper
 
 .PHONY: all
@@ -8,9 +8,9 @@ PAPER += paper
 all: pdf html view
 
 html:
-	R -q -e "rmarkdown::render('$(PAPER).markdown', 'html_document')"
+	R -q -e "rmarkdown::render('$(PAPER).$(MDEXT)', 'html_document')"
 pdf:
-	R -q -e "rmarkdown::render('$(PAPER).markdown', 'pdf_document')"
+	R -q -e "rmarkdown::render('$(PAPER).$(MDEXT)', 'pdf_document')"
 
 view: $(PAPER).pdf
 	open $(PAPER).pdf

@@ -94,3 +94,9 @@ bla bla bla [@xiang2007robust; @wu2005efficiently].
 ```
 
 Basically, citations go inside square brackets and are separated by semicolons. Each citation must have a key, composed of `@` + the citation identifier from the database.
+
+### Paper name
+
+The default paper name used is `paper.markdown`, which will produce `paper.pdf` and `paper.html`. If you want to use a different name, feel free to change the `.markdown` files name, but keep in mind to alter the `PAPER` variable in the `Makefile` if you are using the `make` build approach.
+
+Note that there is a variable for the markdown file extension `MDEXT` as well, if you would rather use `.md` or one of the other 10 or so that are out there.
