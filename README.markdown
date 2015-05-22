@@ -15,9 +15,9 @@ subtitle: "My Subtitle"
 author: Maximilian Irro
 email: me@example.com
 keywords: "Lorem, ipsum"
-
 abstract: "Lorem ipsum"
-
+bibliography: references.bib
+csl: llncs.csl
 output:
   html_document:
     toc: true
@@ -57,6 +57,8 @@ The [Makefile](Makefile) provides the basic targets `make pdf` and `make html`.
 
 ### Dependencies
 
+*Note: this are the installation instructions for OSX. For other platforms, use their package managers. The package names might differe there.*
+
 **Fonts**:
 
 The fonts in [fonts/](fonts/) must be installed on your system. 
@@ -67,6 +69,12 @@ The fonts in [fonts/](fonts/) must be installed on your system.
 $ brew install pandoc
 ```
 
+[pandoc-citeproc](https://github.com/jgm/pandoc-citeproc):
+
+```
+$ brew install pandoc-citeproc
+```
+
 [R Markdown](http://rmarkdown.rstudio.com):
 
 ```
@@ -74,3 +82,15 @@ $ brew install R
 $ R 
 > install.packages('rmarkdown', dependencies = TRUE)
 ```
+
+### Citation
+
+In the Markdown files front matter there has to be the attribute `bibliography: references.bib` set, where the specified `.bib` file contains the references of course. 
+
+Citing a reference from the `.bib` file in the markdown text is simply done via [R markdowns citation syntax](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html): 
+
+```
+Xiang says blah [@xiang2007robust; @xiang2007robust].
+```
+
+Basically, citations go inside square brackets and are separated by semicolons. Each citation must have a key, composed of `@` + the citation identifier from the database. 
