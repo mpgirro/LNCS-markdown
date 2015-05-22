@@ -77,27 +77,33 @@ Computer Modern Unicode fonts are from http://canopus.iacp.dvo.ru/~panov/cm-unic
     }
     .h1 {
         font-family: "CMU Serif Bold", serif !important;
+        font-weight: 100;
         font-size: 14pt;
     }
     .h2 {
         font-family: "CMU Serif Bold", serif !important;
+        font-weight: 100;
         font-size: 12pt;
     }
     .h3 {
         font-family: "CMU Serif Bold", serif !important;
+        font-weight: 100;
         font-size: 10pt;
     }
     .h4 {
         font-family: "CMU Serif Bold", serif !important;
+        font-weight: 100;
         font-size: 10pt;
     }
     .h5 {
         font-family: "CMU Serif Italic", serif !important;
+        font-weight: 100;
         font-size: 10pt;
         font-weight: normal;
     }
     .h6 {
         font-family: "CMU Serif Italic", serif !important;
+        font-weight: 100;
         font-size: 9pt;
         font-weight: normal;
     }
@@ -266,7 +272,7 @@ h1 {
     font-size: 1.4615em;
     margin-bottom: 1.5em;
     margin-top: 1.5em;
-
+    font-weight: 100;
 }
 #header h1 {
     text-align: center;
@@ -282,37 +288,37 @@ h1 {
 
 h2 {
     font-size: 1.231em;
+    margin-top: 1.25em;
+    margin-bottom: 0.75em;
+    font-weight: 100;
 }
 h3 {
     font-size: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 100;
 }
 h4 {
     font-size: 1em;
+    margin-top: 1em;
+    display: inline;
+    font-weight: 100;
 }
 #header h4 {
     text-align: center;
 }
 h5 {
     font-size: 1em;
+    font-weight: 100;
+    display: inline;
+    font-weight: 100;
 }
 h6 {
     font-size: 0.923em;
+    font-weight: 100;
+    font-weight: 100;
 }
-h2 {
-    margin-top: 1.25em;
-    margin-bottom: 0.75em;
-}
-h3 {
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-}
-h4 {
-    margin-top: 1em;
-    display: inline;
-}
-h5 {
-    display: inline;
-}
+
 .h1 {
     font-family: "CMU Serif Bold", serif !important;
     font-size: 1.4615em;
@@ -364,7 +370,7 @@ h5 {
 .author {
     text-align: center;
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
     font-size: 0.85em;
 }
 
@@ -384,7 +390,7 @@ h5 {
 }
 
 .keywords{
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 aside.note {
@@ -655,6 +661,7 @@ dt {
 }
 ul, ol {
     margin-top: 1em;
+    margin-left: 20px;
 }
 table {
     width: 100%;
