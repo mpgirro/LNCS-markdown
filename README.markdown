@@ -17,7 +17,7 @@ email: me@example.com
 keywords: "Lorem, ipsum"
 abstract: "Lorem ipsum"
 bibliography: references.bib
-csl: llncs.csl
+csl: lncs.csl
 output:
   html_document:
     toc: true
