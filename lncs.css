@@ -367,6 +367,17 @@ h6 {
     margin-left: 3em;
 }
 
+a {
+  color: #2233FF;
+}
+a:hover {
+  color: black;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
 .author {
     text-align: center;
     margin-top: 3em;
