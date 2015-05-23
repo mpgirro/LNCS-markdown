@@ -97,9 +97,31 @@
               colorlinks=true,
               linkcolor=blue]{hyperref}
 \else
-  \usepackage[unicode=true,
-              colorlinks=true,
-              linkcolor=blue]{hyperref}
+%  \usepackage[unicode=true,
+%              colorlinks=true,
+%              linkcolor=blue]{hyperref}
+    %unobstrusive usage of hyperref
+    \ifnum\pdfoutput>0
+        \usepackage[
+        unicode=true,
+        %pdfauthor={},
+        %pdfsubject={},
+        %pdftitle={},
+        %pdfkeywords={},
+        bookmarks=false,
+        breaklinks=true,
+        colorlinks=true,
+        linkcolor=black,
+        citecolor=black,
+        urlcolor=black,
+        %pdfstartpage=19,
+        pdfpagelayout=SinglePage
+        ]{hyperref}
+        %enables correct jumping to figures when referencing
+        \usepackage[all]{hypcap}
+    \else
+        \usepackage{hyperref}
+    \fi
 \fi
 \hypersetup{breaklinks=true, pdfborder={0 0 0}}
 \setlength{\parindent}{0pt}
