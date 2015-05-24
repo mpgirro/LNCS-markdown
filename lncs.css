@@ -350,6 +350,7 @@ h6 {
 #TOC {
     margin-top: 2em;
     margin-bottom: 2em;
+    margin-left: -1em;
 }
 #TOC ul{
     list-style-type: none;
@@ -402,6 +403,22 @@ a:hover, a:visited, a:link, a:active {
 
 .keywords{
     margin-top: 3em;
+}
+
+code {
+    font-size: 11pt; /* bit smaller than normal text, for CMU Monospace is quite tall */
+    white-space: pre;
+}
+
+div.sourceCode:after {
+    content: attr(caption);
+}
+
+blockquote {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    font-style: italic;
 }
 
 aside.note {
