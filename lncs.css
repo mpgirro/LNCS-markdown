@@ -421,6 +421,15 @@ blockquote {
     font-style: italic;
 }
 
+div.figure {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.figure p.caption {
+    text-align: center;
+}
+
 aside.note {
     position: relative;
     margin: 1em 0;
