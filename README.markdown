@@ -28,9 +28,12 @@ output:
     highlight: kate
     css: lncs.css
     self_contained: false
+    md_extensions: +footnotes
   pdf_document:
+    fig_caption: yes
     keep_tex: true
     template: lncs-template.tex
+    md_extensions: +footnotes
 ---
 ```
 
