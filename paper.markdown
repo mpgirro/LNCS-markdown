@@ -11,7 +11,7 @@ output:
   html_document:
 #    toc: true
 #    toc_depth: 2
-#    number_sections: true
+    number_sections: true
     fig_caption: yes
     template: lncs-template.html
     theme: null

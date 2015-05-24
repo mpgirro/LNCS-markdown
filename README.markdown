@@ -20,8 +20,8 @@ bibliography: references.bib
 csl: lncs.csl
 output:
   html_document:
-    toc: true
-    toc_depth: 2
+#    toc: true
+#    toc_depth: 2
     number_sections: true
     template: lncs-template.html
     theme: null
