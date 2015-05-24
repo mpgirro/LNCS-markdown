@@ -13,7 +13,9 @@ The papers source markdown file has to have a front-matter with this layout:
 title: "My Title"
 subtitle: "My Subtitle"
 author: Maximilian Irro
-email: me@example.com
+email: optional@email.com
+institute: My optional Institute
+university: My optional University
 keywords: "Lorem, ipsum"
 abstract: "Lorem ipsum"
 bibliography: references.bib

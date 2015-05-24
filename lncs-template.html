@@ -37,7 +37,13 @@
         <div class="author">
             <h2>$author$</h2>
             $if(email)$
-                $email$
+                <p>$email$</p>
+            $endif$
+            $if(institute)$
+                <p>$institute$</p>
+            $endif$
+            $if(university)$
+                <p>$university$</p>
             $endif$
         </div>
         $endif$

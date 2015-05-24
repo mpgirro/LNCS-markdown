@@ -141,19 +141,30 @@
 \input glyphtounicode.tex
 \pdfgentounicode=1
 
+$if(title)$
 \title{$title$}
-
-$if(subtitle)$
-	\subtitle{$subtitle$}
 $endif$
 %If Title is too long, use \titlerunning
 %\titlerunning{Short Title}
 %Single insitute
+$if(author)$
 \author{$author$}
+$endif$
+
 %If there are too many authors, use \authorrunning
 %\authorrunning{First Author et al.}
+
+
 \institute{
+$if(email)$
 \email{$email$}
+$endif$
+$if(institute)$
+\\$institute$
+$endif$
+$if(university)$
+\\$university$
+$endif$
 }
 
 %Multiple insitutes

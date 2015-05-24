@@ -2,7 +2,9 @@
 title: "My title"
 #subtitle: "My subtitle"
 author: Firstname Lastname
-email: me@example.com
+email: optional@email.com
+institute: My optional Institute
+university: My optional University
 keywords: "Lorem, Ipsum"
 abstract: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 bibliography: references.bib
