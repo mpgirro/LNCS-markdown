@@ -430,6 +430,10 @@ div.figure p.caption {
     text-align: center;
 }
 
+div.footnote {
+    margin-top: 1em;
+}
+
 aside.note {
     position: relative;
     margin: 1em 0;
